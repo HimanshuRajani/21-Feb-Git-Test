@@ -10,7 +10,7 @@ class Calculator:
  
     def divide(self, a, b):
         if b == 0:
-            raise ValueError("Cannot divide by zero")
+            raise ValueError("Cannot divide by zero. Not Allowed")
         return a / b
  
     def square_root(self, a):
